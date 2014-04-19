@@ -19,7 +19,7 @@ class MyMusics
      reply_engine_query(m, engine, query, url)
    else
      m.reply "engine #{engine} isnt have support"
-     m.reply "if you want help develop-me, do some contact in channels #labmacambira, #rubythoven or forkme in https://github.com/jahpd/bothoveen"
+     m.reply "if you want help develop-me, do some contact in channels #labmacambira, #rubythoven or forkme in https://github.com/jahpd/rubythoven"
    end
  end
 
