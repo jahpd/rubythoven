@@ -21,3 +21,10 @@ An IRC bot with the Beethoven's soul. Based on [Cichin Bot](https://github.com/c
  - who make you?
  - what your favorite composition?
  - you drive?
+
+# TODO
+
+- knowledge database
+- Make an artificial intelligence to make music/videos network with d3.js
+- Github commands to push, search, delete issues of me
+- PDF search of scores about many composers
