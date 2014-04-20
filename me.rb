@@ -6,6 +6,7 @@ class Me
 
  WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/Beethoven"
  GLEN_GOULD_URL = "https://www.youtube.com/watch?v=-yzEbcgDCrQ"
+ CHARLIE_THE_UNICORN = "https://www.youtube.com/watch?v=Fu2DcHzokew"
 
  match(/beethoven where you ([^ ]+)$/, :method => :where_i)
  def where_i(m, q)
@@ -30,8 +31,8 @@ class Me
  end
 
  match(/beethoven you drive$/, :method => :you_drive)
- def yout_drive(m)
-   m.reply "drive what? im bot with dead soul; maybe a boat or horses"
+ def you_drive(m)
+   m.reply "drive what? im bot with dead soul; maybe a boat or horses; maybe unicorn (#{CHARLIE_THE_UNICORN})"
  end
 
 end

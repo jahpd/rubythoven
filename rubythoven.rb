@@ -1,7 +1,7 @@
 require 'cinch'
 require './me'
 require './ola'
-require './my_musics'
+require './youtube'
 
 beethoven = Cinch::Bot.new do
 
@@ -9,7 +9,7 @@ beethoven = Cinch::Bot.new do
     c.server = "irc.freenode.net"
     c.nick = "both0veen"
     c.channels= ["#rubythoven"]
-    c.plugins.plugins = [Me, Ola, MyMusics]
+    c.plugins.plugins = [Me, Ola, Youtube]
   end
 
 end
