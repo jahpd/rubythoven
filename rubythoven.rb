@@ -1,18 +1,18 @@
 require 'cinch'
-require './me'
-require './ola'
-require './youtube'
-require './friends'
+require './plugins/me'
+require './plugins/duckduckgo'
 
 beethoven = Cinch::Bot.new do
 
-  configure do |c|
-    c.server = "irc.freenode.net"
-    c.nick = "both0veen"
-    c.channels= ["#rubythoven"]
-    c.plugins.plugins = [Me, Ola, Youtube, Friends]
-  end
+  #FILE = "./both0veen.yml"
+  #yaml = YAML::load File.open(FILE)
 
+  configure do |c|
+    c.server = "irc.freenode.net" #yaml[:server]
+    c.nick = "both0veen"          #yaml[:nick]
+    c.channels= ["#rubythoven"]   #yaml[:channels]
+    c.plugins.plugins = [Me, Duckduckgo]
+  end
 end
 
 beethoven.start

@@ -1,7 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
+
+ruby "2.1.0"
 
 gem "cinch" 
-gem "httparty"
-gem "mongo"
+gem "mongoid"
 gem "bson_ext"
 gem "unirest"
+gem "nokogiri"

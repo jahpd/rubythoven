@@ -4,3 +4,7 @@
 
 # Ignore bundler config.
 /.bundle
+
+# Ignore yamls,generate them with Rakefile
+*.yml
+*.yaml

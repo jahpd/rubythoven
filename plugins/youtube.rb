@@ -22,6 +22,7 @@ class Youtube
 
     if response
       m.reply "#{m.user.nick} #{message}: i found (status #{code})"
+      m.reply "#{response}"
 
       doc = Nokogiri::HTML(body)
 
